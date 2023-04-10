@@ -1,0 +1,186 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MODERN WARFARE 2 - FAN PAGE</title>
+
+        <link rel="icon" href="img\MW2.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css\style.css" />
+        <link rel="stylesheet" href="css\shop.css">
+        <script src="js\index.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <div class="img-logo">
+                        <img src="img\MW2-remo.png" alt="MW2 IMAGE"
+                            height="60px" width="200px" />
+                    </div>
+                    <div class="title-logo">modern warfare ii</div>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="index.html#about">About us</a>
+                <a href="index.html#char">Characters</a>
+                <a href="shop.html">Shop</a>
+                <a href="signin.html">Profile</a>
+            </nav>
+        </header>
+        <section id="items-section">
+            <div class="items-container">
+              <div class="item-card" id="item-card1">
+                <img src="img/shirts/image1.png" alt="Item 1">
+                <p>
+                    <input type="text" readonly size="1" id="item-value1" value="20" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov1()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb1" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add1()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card2">
+                <img src="img/shirts/image2.png" alt="Item 2">
+                <p>
+                    <input type="text" readonly size="1" id="item-value2" value="15" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov2()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb2" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add2()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card3">
+                <img src="img/shirts/image3.png" alt="Item 3">
+                <p>
+                    <input type="text" readonly size="1" id="item-value3" value="20" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov3()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb3" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add3()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card4">
+                <img src="img/shirts/image4.png" alt="Item 4">
+                <p>
+                    <input type="text" readonly size="1" id="item-value4" value="25" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov4()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb4" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add4()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card5">
+                <img src="img/shirts/image5.png" alt="Item 5">
+                <p>
+                    <input type="text" readonly size="1" id="item-value5" value="25" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container" >
+                  <button onclick="remov5()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb5" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add5()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card6">
+                <img src="img/shirts/image6.png" alt="Item 6">
+                <p>
+                    <input type="text" readonly size="1" id="item-value6" value="19" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov6()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb6" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add6()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card7">
+                <img src="img/shirts/image7.png" alt="Item 7">
+                <p>
+                    <input type="text" readonly size="1" id="item-value7" value="28" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov7()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb7" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add7()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+              <div class="item-card" id="item-card8">
+                <img src="img/shirts/image8.png" alt="Item 8">
+                <p>
+                    <input type="text" readonly size="1" id="item-value8" value="30" style="background-color: rgb(255, 255, 255,0); border: none;text-align: right;">$
+                </p>
+                <div class="counter-container">
+                  <button onclick="remov8()" class="counter-button minus-button">-</button>
+                  <input type="number" id="numb8" class="counter-input" min="0" readonly value="0">
+                  <button onclick="add8()" class="counter-button plus-button">+</button>
+                </div>
+                <button onclick="addtotal()" class="buy-button">Add to Cart</button>
+              </div>
+            </div>
+
+            <section id="cart-section">
+                <h2>Cart</h2>
+                <div id="cart-items-container">
+                    <table width="70%" border="0">
+                        <tr>
+                            <th>Shirt 1: </th>
+                            <th>Shirt 2: </th>
+                            <th>Shirt 3: </th>
+                            <th>Shirt 4: </th>
+                            <th>Shirt 5: </th>
+                            <th>Shirt 6: </th>
+                            <th>Shirt 7: </th>
+                            <th>Shirt 8: </th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>&nbsp;</th>
+                            <th>Total:</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" size="10" readonly id="vtot1" ><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot2"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot3"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot4"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot5"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot6"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot7"><span>$</span></td>
+                            <td><input type="text" size="10" readonly id="vtot8"><span>$</span></td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td style="font-weight: bolder;"><input type="text" id="vtotal" size="10" readonly style="color: red;font-weight: bold;" ><span>$</span></td>
+                        </tr>
+                    </table>
+                  <!-- Cart items will be dynamically added here using JavaScript -->
+                </div>
+                <div id="cart-total-container">
+
+                <a href="index.html"><button onclick="chout()" id="checkout-button">Checkout</button></a>
+              </section>
+          </section>
+
+          <footer>
+            <hr>
+            <p style="text-align: center;font-size: 15px;color: aliceblue;">
+                copy right &copy2023
+            </p>
+        </footer>
+    </body>
+</html>

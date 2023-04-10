@@ -1,0 +1,57 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MODERN WARFARE 2 - FAN PAGE</title>
+
+        <link rel="icon" href="img\MW2.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css\style.css" />
+        <link rel="stylesheet" href="css\profile.css">
+
+        <script src="js\index.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <div class="img-logo">
+                        <img src="img\MW2-remo.png" alt="MW2 IMAGE"
+                            height="60px" width="200px" />
+                    </div>
+                    <div class="title-logo">modern warfare ii</div>
+                </div>
+            </a>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="index.html#about">About us</a>
+                <a href="index.html#char">Characters</a>
+                <a href="shop.html">Shop</a>
+                <a href="signin.html">Profile</a>
+            </nav>
+        </header>
+        <section class="sin" style="background-image: url(img/mw2-beta-hero.jpg);">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/MW2.jpeg" width="100px" alt="MW2 Logo">
+                    <h1>MW2 Sign Up</h1>
+                </div>
+                <form id="signupForm" action="index.html" onsubmit="return signup()">
+                    <input type="text" id="username" placeholder="Username">
+                    <input type="password" id="password" placeholder="Password">
+                    <input type="password" id="confirmPassword"
+                        placeholder="Confirm Password">
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="login">
+                    <span>Already have an account? </span>
+                    <a href="signin.html">Sign In</a>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+</html>
